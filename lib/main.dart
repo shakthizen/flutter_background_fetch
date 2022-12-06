@@ -47,7 +47,7 @@ void main() async {
 
   Workmanager().initialize(
     callbackDispatcher, // The top level function, aka callbackDispatcher
-    isInDebugMode: true,
+    // isInDebugMode: true,
     // If enabled it will post a notification whenever the task is running. Handy for debugging tasks
   );
   Workmanager().registerPeriodicTask(
